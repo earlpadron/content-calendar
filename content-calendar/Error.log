@@ -1,0 +1,253 @@
+2023-07-04T19:39:32.869-07:00  INFO 73256 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 73256 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-04T19:39:32.878-07:00  INFO 73256 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-04T19:39:33.861-07:00  INFO 73256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04T19:39:33.920-07:00  INFO 73256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-07-04T19:39:34.338-07:00  INFO 73256 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-04T19:39:34.848-07:00  INFO 73256 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@388f1258
+2023-07-04T19:39:34.850-07:00  INFO 73256 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-04T19:39:35.016-07:00  INFO 73256 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04T19:39:35.117-07:00  INFO 73256 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-04T19:39:35.121-07:00  INFO 73256 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-04T19:39:35.336-07:00  INFO 73256 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-04T19:39:35.489-07:00  INFO 73256 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-04T19:39:35.614-07:00  INFO 73256 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-04T19:39:35.853-07:00  INFO 73256 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-04T19:39:36.471-07:00  INFO 73256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04T19:39:36.474-07:00  INFO 73256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04T19:39:36.810-07:00  INFO 73256 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-04T19:39:37.310-07:00  WARN 73256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04T19:39:37.867-07:00  INFO 73256 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-04T19:39:37.942-07:00  INFO 73256 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 5.438 seconds (process running for 6.566)
+2023-07-04T19:39:38.710-07:00  INFO 73256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04T19:39:38.714-07:00  INFO 73256 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-04T19:39:38.726-07:00  INFO 73256 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-04T20:01:31.536-07:00  INFO 80172 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 80172 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-04T20:01:31.544-07:00  INFO 80172 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-04T20:01:32.366-07:00  INFO 80172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04T20:01:32.415-07:00  INFO 80172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-07-04T20:01:32.763-07:00  INFO 80172 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-04T20:01:33.112-07:00  INFO 80172 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b211077
+2023-07-04T20:01:33.114-07:00  INFO 80172 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-04T20:01:33.220-07:00  INFO 80172 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04T20:01:33.284-07:00  INFO 80172 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-04T20:01:33.286-07:00  INFO 80172 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-04T20:01:33.438-07:00  INFO 80172 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-04T20:01:33.616-07:00  INFO 80172 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-04T20:01:33.681-07:00  INFO 80172 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-04T20:01:33.869-07:00  INFO 80172 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-04T20:01:34.427-07:00  INFO 80172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04T20:01:34.430-07:00  INFO 80172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04T20:01:34.704-07:00  INFO 80172 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-04T20:01:35.146-07:00  WARN 80172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04T20:01:35.662-07:00  INFO 80172 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-04T20:01:35.724-07:00  INFO 80172 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.471 seconds (process running for 5.524)
+2023-07-04T20:01:36.551-07:00  INFO 80172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04T20:01:36.555-07:00  INFO 80172 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-04T20:01:36.565-07:00  INFO 80172 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-04T20:02:21.089-07:00  INFO 70644 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 70644 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-04T20:02:21.098-07:00  INFO 70644 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-04T20:02:21.886-07:00  INFO 70644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04T20:02:21.937-07:00  INFO 70644 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-07-04T20:02:22.285-07:00  INFO 70644 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-04T20:02:22.670-07:00  INFO 70644 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@388f1258
+2023-07-04T20:02:22.672-07:00  INFO 70644 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-04T20:02:22.775-07:00  INFO 70644 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04T20:02:22.841-07:00  INFO 70644 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-04T20:02:22.843-07:00  INFO 70644 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-04T20:02:22.995-07:00  INFO 70644 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-04T20:02:23.147-07:00  INFO 70644 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-04T20:02:23.218-07:00  INFO 70644 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-04T20:02:23.397-07:00  INFO 70644 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-04T20:02:23.943-07:00  INFO 70644 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04T20:02:23.946-07:00  INFO 70644 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04T20:02:24.228-07:00  INFO 70644 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-04T20:02:24.697-07:00  WARN 70644 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04T20:02:25.233-07:00  INFO 70644 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-04T20:02:25.303-07:00  INFO 70644 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.506 seconds (process running for 5.551)
+2023-07-04T20:02:25.946-07:00  INFO 70644 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04T20:02:25.950-07:00  INFO 70644 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-04T20:02:25.959-07:00  INFO 70644 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-14T16:27:33.368-07:00  INFO 32996 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 32996 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-14T16:27:33.377-07:00  INFO 32996 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-14T16:27:34.308-07:00  INFO 32996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-14T16:27:34.366-07:00  INFO 32996 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-07-14T16:27:34.751-07:00  INFO 32996 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-14T16:27:35.359-07:00  INFO 32996 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62b0bf85
+2023-07-14T16:27:35.362-07:00  INFO 32996 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-14T16:27:35.586-07:00  INFO 32996 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-14T16:27:35.670-07:00  INFO 32996 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-14T16:27:35.674-07:00  INFO 32996 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-14T16:27:35.842-07:00  INFO 32996 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T16:27:35.974-07:00  INFO 32996 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-14T16:27:36.082-07:00  INFO 32996 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-14T16:27:36.363-07:00  INFO 32996 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T16:27:37.037-07:00  INFO 32996 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-14T16:27:37.040-07:00  INFO 32996 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T16:27:37.462-07:00  INFO 32996 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-14T16:27:38.106-07:00  WARN 32996 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-14T16:27:38.897-07:00  INFO 32996 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-14T16:27:38.991-07:00  INFO 32996 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 6.0 seconds (process running for 7.202)
+2023-07-14T16:27:39.733-07:00  INFO 32996 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T16:27:39.736-07:00  INFO 32996 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-14T16:27:39.746-07:00  INFO 32996 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-14T22:07:52.421-07:00  INFO 27592 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 27592 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-14T22:07:52.430-07:00  INFO 27592 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-14T22:07:53.344-07:00  INFO 27592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-14T22:07:53.407-07:00  INFO 27592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2023-07-14T22:07:53.793-07:00  INFO 27592 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-14T22:07:54.231-07:00  INFO 27592 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aca2fc3
+2023-07-14T22:07:54.233-07:00  INFO 27592 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-14T22:07:54.361-07:00  INFO 27592 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-14T22:07:54.443-07:00  INFO 27592 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-14T22:07:54.447-07:00  INFO 27592 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-14T22:07:54.617-07:00  INFO 27592 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T22:07:54.785-07:00  INFO 27592 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-14T22:07:54.860-07:00  INFO 27592 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-14T22:07:55.156-07:00  INFO 27592 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T22:07:55.763-07:00  INFO 27592 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-14T22:07:55.766-07:00  INFO 27592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T22:07:56.045-07:00  INFO 27592 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-14T22:07:56.518-07:00  WARN 27592 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-14T22:07:57.066-07:00  INFO 27592 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-14T22:07:57.134-07:00  INFO 27592 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 5.024 seconds (process running for 6.067)
+2023-07-14T22:07:57.822-07:00  INFO 27592 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T22:07:57.826-07:00  INFO 27592 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-14T22:07:57.835-07:00  INFO 27592 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-14T23:58:17.091-07:00  INFO 31020 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 31020 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-14T23:58:17.102-07:00  INFO 31020 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-14T23:58:18.020-07:00  INFO 31020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-14T23:58:18.066-07:00  INFO 31020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2023-07-14T23:58:18.411-07:00  INFO 31020 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-14T23:58:18.770-07:00  INFO 31020 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62b0bf85
+2023-07-14T23:58:18.772-07:00  INFO 31020 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-14T23:58:18.866-07:00  INFO 31020 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-14T23:58:18.925-07:00  INFO 31020 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-14T23:58:18.928-07:00  INFO 31020 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-14T23:58:19.081-07:00  INFO 31020 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T23:58:19.221-07:00  INFO 31020 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-14T23:58:19.277-07:00  INFO 31020 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-14T23:58:19.453-07:00  INFO 31020 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T23:58:19.997-07:00  INFO 31020 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-14T23:58:20.000-07:00  INFO 31020 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T23:58:20.311-07:00  INFO 31020 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-14T23:58:20.768-07:00  WARN 31020 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-14T23:58:21.346-07:00  INFO 31020 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-14T23:58:21.415-07:00  INFO 31020 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.613 seconds (process running for 5.689)
+2023-07-14T23:58:22.164-07:00  INFO 31020 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T23:58:22.167-07:00  INFO 31020 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-14T23:58:22.178-07:00  INFO 31020 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-14T23:58:37.821-07:00  INFO 21416 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 21416 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-14T23:58:37.829-07:00  INFO 21416 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-14T23:58:38.596-07:00  INFO 21416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-14T23:58:38.654-07:00  INFO 21416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-07-14T23:58:39.003-07:00  INFO 21416 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-14T23:58:39.346-07:00  INFO 21416 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b211077
+2023-07-14T23:58:39.348-07:00  INFO 21416 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-14T23:58:39.449-07:00  INFO 21416 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-14T23:58:39.510-07:00  INFO 21416 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-14T23:58:39.512-07:00  INFO 21416 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-14T23:58:39.664-07:00  INFO 21416 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T23:58:39.800-07:00  INFO 21416 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-14T23:58:39.859-07:00  INFO 21416 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-14T23:58:40.042-07:00  INFO 21416 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-14T23:58:40.608-07:00  INFO 21416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-14T23:58:40.611-07:00  INFO 21416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T23:58:40.884-07:00  INFO 21416 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-14T23:58:41.344-07:00  WARN 21416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-14T23:58:41.870-07:00  INFO 21416 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-14T23:58:41.936-07:00  INFO 21416 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.385 seconds (process running for 5.421)
+2023-07-14T23:58:42.676-07:00  INFO 21416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-14T23:58:42.679-07:00  INFO 21416 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-14T23:58:42.688-07:00  INFO 21416 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-15T00:01:26.416-07:00  INFO 28832 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 28832 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-15T00:01:26.425-07:00  INFO 28832 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-15T00:01:27.291-07:00  INFO 28832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-15T00:01:27.347-07:00  INFO 28832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-07-15T00:01:27.700-07:00  INFO 28832 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-15T00:01:28.052-07:00  INFO 28832 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b770d07
+2023-07-15T00:01:28.054-07:00  INFO 28832 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-15T00:01:28.145-07:00  INFO 28832 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-15T00:01:28.207-07:00  INFO 28832 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-15T00:01:28.209-07:00  INFO 28832 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-15T00:01:28.362-07:00  INFO 28832 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T00:01:28.504-07:00  INFO 28832 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-15T00:01:28.567-07:00  INFO 28832 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-15T00:01:28.736-07:00  INFO 28832 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T00:01:29.288-07:00  INFO 28832 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-15T00:01:29.291-07:00  INFO 28832 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T00:01:29.570-07:00  INFO 28832 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-15T00:01:30.034-07:00  WARN 28832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-15T00:01:30.622-07:00  INFO 28832 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-15T00:01:30.684-07:00  INFO 28832 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.584 seconds (process running for 5.614)
+2023-07-15T00:01:31.413-07:00  INFO 28832 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T00:01:31.416-07:00  INFO 28832 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-15T00:01:31.427-07:00  INFO 28832 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-15T00:02:06.470-07:00  INFO 20204 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 20204 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-15T00:02:06.479-07:00  INFO 20204 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-15T00:02:07.303-07:00  INFO 20204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-15T00:02:07.363-07:00  INFO 20204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-07-15T00:02:07.743-07:00  INFO 20204 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-15T00:02:08.138-07:00  INFO 20204 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b211077
+2023-07-15T00:02:08.139-07:00  INFO 20204 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-15T00:02:08.237-07:00  INFO 20204 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-15T00:02:08.307-07:00  INFO 20204 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-15T00:02:08.309-07:00  INFO 20204 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-15T00:02:08.460-07:00  INFO 20204 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T00:02:08.600-07:00  INFO 20204 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-15T00:02:08.666-07:00  INFO 20204 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-15T00:02:08.865-07:00  INFO 20204 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T00:02:09.452-07:00  INFO 20204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-15T00:02:09.455-07:00  INFO 20204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T00:02:09.739-07:00  INFO 20204 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-15T00:02:10.199-07:00  WARN 20204 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-15T00:02:10.756-07:00  INFO 20204 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-15T00:02:10.827-07:00  INFO 20204 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.646 seconds (process running for 5.713)
+2023-07-15T00:02:11.572-07:00  INFO 20204 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T00:02:11.575-07:00  INFO 20204 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-15T00:02:11.593-07:00  INFO 20204 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-15T09:42:11.465-07:00  INFO 32532 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 32532 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-15T09:42:11.473-07:00  INFO 32532 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-15T09:42:12.279-07:00  INFO 32532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-15T09:42:12.332-07:00  INFO 32532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2023-07-15T09:42:12.668-07:00  INFO 32532 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-15T09:42:13.024-07:00  INFO 32532 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@388f1258
+2023-07-15T09:42:13.026-07:00  INFO 32532 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-15T09:42:13.127-07:00  INFO 32532 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-15T09:42:13.194-07:00  INFO 32532 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-15T09:42:13.197-07:00  INFO 32532 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-15T09:42:13.346-07:00  INFO 32532 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T09:42:13.487-07:00  INFO 32532 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-15T09:42:13.545-07:00  INFO 32532 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-15T09:42:13.729-07:00  INFO 32532 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T09:42:14.306-07:00  INFO 32532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-15T09:42:14.309-07:00  INFO 32532 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T09:42:14.590-07:00  INFO 32532 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-15T09:42:15.020-07:00  WARN 32532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-15T09:42:15.621-07:00  INFO 32532 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-15T09:42:15.691-07:00  INFO 32532 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 4.517 seconds (process running for 5.626)
+2023-07-15T09:42:16.426-07:00  INFO 32532 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T09:42:16.429-07:00  INFO 32532 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-15T09:42:16.439-07:00  INFO 32532 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2023-07-15T16:19:11.363-07:00  INFO 15028 --- [main] d.e.c.s.ContentServiceImplTest           : Starting ContentServiceImplTest using Java 17.0.7 with PID 15028 (started by Earl in C:\Users\Earl\Desktop\SpringBoot_Projects\content-calendar\content-calendar)
+2023-07-15T16:19:11.372-07:00  INFO 15028 --- [main] d.e.c.s.ContentServiceImplTest           : No active profile set, falling back to 1 default profile: "default"
+2023-07-15T16:19:12.386-07:00  INFO 15028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-15T16:19:12.446-07:00  INFO 15028 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2023-07-15T16:19:12.870-07:00  INFO 15028 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-07-15T16:19:13.568-07:00  INFO 15028 --- [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b211077
+2023-07-15T16:19:13.569-07:00  INFO 15028 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-07-15T16:19:13.710-07:00  INFO 15028 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-15T16:19:13.803-07:00  INFO 15028 --- [main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-15T16:19:13.806-07:00  INFO 15028 --- [main] o.h.c.Environment                        : HHH000406: Using bytecode reflection optimizer
+2023-07-15T16:19:13.997-07:00  INFO 15028 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T16:19:14.154-07:00  INFO 15028 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-15T16:19:14.255-07:00  INFO 15028 --- [main] o.h.o.dialect                            : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.21
+2023-07-15T16:19:14.465-07:00  INFO 15028 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-15T16:19:15.144-07:00  INFO 15028 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-15T16:19:15.149-07:00  INFO 15028 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T16:19:15.500-07:00  INFO 15028 --- [main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-07-15T16:19:15.976-07:00  WARN 15028 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-15T16:19:16.546-07:00  INFO 15028 --- [main] o.s.b.a.e.w.EndpointLinksResolver        : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-15T16:19:16.621-07:00  INFO 15028 --- [main] d.e.c.s.ContentServiceImplTest           : Started ContentServiceImplTest in 5.58 seconds (process running for 6.795)
+2023-07-15T16:19:17.392-07:00  INFO 15028 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-15T16:19:17.396-07:00  INFO 15028 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2023-07-15T16:19:17.405-07:00  INFO 15028 --- [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
