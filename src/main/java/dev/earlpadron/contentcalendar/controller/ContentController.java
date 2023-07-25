@@ -2,11 +2,13 @@ package dev.earlpadron.contentcalendar.controller;
 
 import dev.earlpadron.contentcalendar.exception.ContentAlreadyExistsException;
 import dev.earlpadron.contentcalendar.exception.ContentNotFoundException;
+import dev.earlpadron.contentcalendar.model.Content;
 import dev.earlpadron.contentcalendar.model.DTO.ContentDTO;
 import dev.earlpadron.contentcalendar.model.DTO.ContentUpdateRequestDTO;
 import dev.earlpadron.contentcalendar.model.enums.Status;
 import dev.earlpadron.contentcalendar.service.ContentService;
 import dev.earlpadron.contentcalendar.service.ContentServiceImpl;
+import dev.earlpadron.contentcalendar.util.ContentMapper;
 import jakarta.validation.Valid;
 
 import jakarta.validation.constraints.Min;
@@ -44,6 +46,9 @@ public class ContentController {
     @Autowired
     private ContentService contentService;
 
+    @Autowired
+    private ContentMapper contentMapper;
+
    @Autowired
    Environment environment; //should produce messages in each response ex. String message = environment.getProperty("API.ALLOCATION_SUCCESS") + ": " projectId;
 
@@ -52,14 +57,14 @@ public class ContentController {
                                                  @Min(value = 1,
                                                       message = "{content.id.invalid}")
                                                       Integer id) throws ContentNotFoundException {
-        ContentDTO content = contentService.getContent(id);
-        return new ResponseEntity<ContentDTO>(content, HttpStatus.OK);
+        Content content = contentService.getContent(id);
+        return new ResponseEntity<ContentDTO>(contentMapper.entityToDTO(content), HttpStatus.OK);
     }
 
     @GetMapping("/getAll")
     public ResponseEntity<List<ContentDTO>> getAllContents(){
-        List<ContentDTO> contentList = contentService.getAllContents();
-        return new ResponseEntity<List<ContentDTO>>(contentList, HttpStatus.OK);
+        List<Content> contentList = contentService.getAllContents();
+        return new ResponseEntity<List<ContentDTO>>(contentMapper.entityToDTO(contentList), HttpStatus.OK);
     }
 
     @DeleteMapping("/delete/{id}")
@@ -70,34 +75,35 @@ public class ContentController {
 
     @PostMapping("/create")
     public ResponseEntity<String> postContent(@RequestBody @Valid ContentDTO contentDTO) throws ContentAlreadyExistsException {
-        Integer id = contentService.postContent(contentDTO);
-        String message = environment.getProperty("API.POST_SUCCESS");
+        Integer id = contentService.postContent(contentMapper.DTOToEntity(contentDTO));
+        String message = environment.getProperty("API.POST_SUCCESS") + " : " + id;
         return new ResponseEntity<String>(message, HttpStatus.CREATED);
     }
 
     @GetMapping("/find/title/{keyword}")
     public ResponseEntity<List<ContentDTO>> getAllContentsContainingTitleKeyword(@PathVariable String keyword) throws ContentNotFoundException{
-        List<ContentDTO> contentList = contentService.findAllContentsContainingTitleKeyword(keyword);
-        return new ResponseEntity<List<ContentDTO>>(contentList, HttpStatus.OK);
+        List<Content> contentList = contentService.findAllContentsContainingTitleKeyword(keyword);
+        return new ResponseEntity<List<ContentDTO>>(contentMapper.entityToDTO(contentList), HttpStatus.OK);
     }
 
     @PutMapping("/update/{id}")
     public ResponseEntity<String> updateContent(@RequestBody @Valid ContentUpdateRequestDTO contentUpdateRequestDTO,
-                                                @PathVariable(name = "id")
-                                                 @Min(value = 1, message = "{content.valid.id}")
-                                                Integer id)
+                                                @PathVariable(name = "id") @Min(value = 1, message = "{content.valid.id}")Integer id)
                                                 throws ContentNotFoundException{
+
+        //check if this content exists by searching for content entity with this id
         if(contentService.getContent(id) != null) {
             contentService.updateContent(id, contentUpdateRequestDTO);
             return new ResponseEntity<String>(environment.getProperty("API.SUCCESSFULLY_UPDATED") + " : " + id, HttpStatus.ACCEPTED); //should be handling these exceptions in Aspect Class w/ advices and logged
+        } else { //if the content does not exist, update cannot be executed and send appropriate error message
+            return new ResponseEntity<String>(environment.getProperty("API.FAILED_UPDATE") + " : " + id, HttpStatus.BAD_REQUEST);// and should be an environment property
         }
-        return new ResponseEntity<String>(environment.getProperty("API.FAILED_UPDATE") + " : " + id, HttpStatus.BAD_REQUEST);// and should be an environment property
     }
 
     @GetMapping("/find/status/{status}")
     public ResponseEntity<List<ContentDTO>> findByStatus(@PathVariable Status status){
-        List<ContentDTO> contentDTOList = contentService.findByStatus(status);
-        return new ResponseEntity<List<ContentDTO>>(contentDTOList, HttpStatus.OK);
+        List<Content> contentDTOList = contentService.findByStatus(status);
+        return new ResponseEntity<List<ContentDTO>>(contentMapper.entityToDTO(contentDTOList), HttpStatus.OK);
     }
 
 

@@ -1,9 +1,8 @@
-package dev.earlpadron.contentcalendar.repisotories;
+package dev.earlpadron.contentcalendar.repository;
 
 import dev.earlpadron.contentcalendar.model.Content;
 import dev.earlpadron.contentcalendar.model.enums.Status;
 import dev.earlpadron.contentcalendar.model.enums.Type;
-import dev.earlpadron.contentcalendar.repository.ContentRepository;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
