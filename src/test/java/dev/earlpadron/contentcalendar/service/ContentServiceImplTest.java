@@ -77,8 +77,6 @@ public class ContentServiceImplTest {
 
     @Test
     void getContentInvalidTest(){
-        //given
-
         //when
         Mockito.when(contentRepository.findById(Mockito.anyInt())).thenReturn(Optional.empty());
         //then

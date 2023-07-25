@@ -3,7 +3,6 @@ package dev.earlpadron.contentcalendar.service;
 import dev.earlpadron.contentcalendar.exception.ContentAlreadyExistsException;
 import dev.earlpadron.contentcalendar.exception.ContentNotFoundException;
 import dev.earlpadron.contentcalendar.model.Content;
-import dev.earlpadron.contentcalendar.model.DTO.ContentDTO;
 import dev.earlpadron.contentcalendar.model.DTO.ContentUpdateRequestDTO;
 import dev.earlpadron.contentcalendar.model.enums.Status;
 import dev.earlpadron.contentcalendar.repository.ContentRepository;

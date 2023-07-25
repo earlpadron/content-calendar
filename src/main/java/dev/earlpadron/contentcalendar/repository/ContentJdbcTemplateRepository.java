@@ -12,7 +12,7 @@
 //public class ContentJdbcTemplateRepository {
 //
 //    /**
-//     * Jdbc Template is the first level of abstract above the DriverManger making a manual connection to a database
+//     * Jdbc Template is the first level of abstraction above the DriverManger making a manual connection to a database
 //     * and writing sql query
 //     *
 //     * next level of abstraction is Spring Data (most popular is Spring Data JPA(Hibernate))
